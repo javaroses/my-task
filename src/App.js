@@ -71,7 +71,7 @@ class App extends React.Component {
           <div className="input-form">
             <FormInput add={this.addTask}/>
           </div>
-          <EditModal edit={this.props.isEdit}/>
+          <EditModal edit={this.state.isEdit}/>
         </div>
     );
     }
